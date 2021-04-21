@@ -1,6 +1,8 @@
 import random
 
-number = random.randint(1, 100)
+start = int(input('最小數字:'))
+end = int(input('最大數字:'))
+number = random.randint(start, end)
 i = 0
 
 while True:
